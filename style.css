@@ -1,0 +1,61 @@
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+
+header,
+footer {
+    height: 200px;
+    background: blue;
+}
+
+ul li {
+    width: 100px;
+    height: 30px;
+    background: green;
+    float: right;
+    margin-top: 5rem;
+    margin-right: .5rem ;
+}
+main {
+    background: orange;
+}
+.yell {
+    background: yellow;
+}
+section {
+    height: 650px;
+}
+
+.box {
+    background: green;
+    
+}
+.content1 .box {
+    width: 550px;
+    height: 300px;
+    float: left;
+    margin: .5rem;
+}
+
+.content2 {
+    width: 1000px;
+}
+
+.content2 .box {
+    width: 30.333%;
+    height: 300px;
+    float: left;
+    margin: .5rem;
+}
